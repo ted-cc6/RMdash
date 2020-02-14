@@ -7,6 +7,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 /* Importing pages from separate files*/
 import Login from './src/screens/Login';
 import Dashboard from './src/screens/Dashboard';
+import list from './src/screens/list';
+import { startClock } from 'react-native-reanimated';
 
 const Stack = createStackNavigator();
 
@@ -17,6 +19,7 @@ export default class App extends Component {
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="list" component={list} />
       </Stack.Navigator>
       </NavigationContainer>
     );
