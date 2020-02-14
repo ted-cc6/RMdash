@@ -122,67 +122,7 @@ export default class list extends Component {
               </Right>
             </ListItem>
 
-
-            <ListItem thumbnail style ={{marginTop: 10, marginBottom: 10}}>
-            <Left>
-                <Thumbnail circular source={{ uri: 'https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15823444_1301814059857341_2563288695286979024_n.jpg?_nc_cat=106&_nc_ohc=AcapZ0bUML8AX9i90J_&_nc_ht=scontent-lht6-1.xx&oh=f7c8acc699dee91dd591d06081ad4d9c&oe=5EC99472' }} />
-              </Left>
-              <Body>
-                <Text>Dovydas Tamasauskas</Text>
-              </Body>
-              <Right>
-                <Button transparent>
-                  <Text>View</Text>
-                </Button>
-              </Right>
-            </ListItem>
-
             
-            <ListItem thumbnail style ={{marginTop: 10, marginBottom: 10}}>
-            <Left>
-                <Thumbnail circular source={{ uri: 'https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15823444_1301814059857341_2563288695286979024_n.jpg?_nc_cat=106&_nc_ohc=AcapZ0bUML8AX9i90J_&_nc_ht=scontent-lht6-1.xx&oh=f7c8acc699dee91dd591d06081ad4d9c&oe=5EC99472' }} />
-              </Left>
-              <Body>
-                <Text>Dovydas Tamasauskas</Text>
-              </Body>
-              <Right>
-                <Button transparent>
-                  <Text>View</Text>
-                </Button>
-              </Right>
-            </ListItem>
-
-
-            <ListItem thumbnail style ={{marginTop: 10, marginBottom: 10}}>
-            <Left>
-                <Thumbnail circular source={{ uri: 'https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15823444_1301814059857341_2563288695286979024_n.jpg?_nc_cat=106&_nc_ohc=AcapZ0bUML8AX9i90J_&_nc_ht=scontent-lht6-1.xx&oh=f7c8acc699dee91dd591d06081ad4d9c&oe=5EC99472' }} />
-              </Left>
-              <Body>
-                <Text>Dovydas Tamasauskas</Text>
-              </Body>
-              <Right>
-                <Button transparent>
-                  <Text>View</Text>
-                </Button>
-              </Right>
-            </ListItem>
-
-
-            <ListItem thumbnail style ={{marginTop: 10, marginBottom: 10}}>
-            <Left>
-                <Thumbnail circular source={{ uri: 'https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15823444_1301814059857341_2563288695286979024_n.jpg?_nc_cat=106&_nc_ohc=AcapZ0bUML8AX9i90J_&_nc_ht=scontent-lht6-1.xx&oh=f7c8acc699dee91dd591d06081ad4d9c&oe=5EC99472' }} />
-              </Left>
-              <Body>
-                <Text>Dovydas Tamasauskas</Text>
-              </Body>
-              <Right>
-                <Button transparent>
-                  <Text>View</Text>
-                </Button>
-              </Right>
-            </ListItem>
-
-
             <ListItem thumbnail style ={{marginTop: 10, marginBottom: 10}}>
             <Left>
                 <Thumbnail circular source={{ uri: 'https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15823444_1301814059857341_2563288695286979024_n.jpg?_nc_cat=106&_nc_ohc=AcapZ0bUML8AX9i90J_&_nc_ht=scontent-lht6-1.xx&oh=f7c8acc699dee91dd591d06081ad4d9c&oe=5EC99472' }} />
