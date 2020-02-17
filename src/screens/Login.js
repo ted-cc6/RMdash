@@ -13,7 +13,7 @@ import { Image } from 'react-native'
 });*/
 
 export default class Login extends Component {
-
+ 
     /*_onLogin = async () => {
         try {
           let tokens = await azureAuth.webAuth.authorize({scope: 'openid profile User.Read' })
