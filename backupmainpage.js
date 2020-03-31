@@ -24,19 +24,16 @@ const cards = [
     text: '5 Day',
     name: 'Relationship Manager: Dr. Georgie Powell',
     image: require("./assets/billgates.jpg"),
-    data: [ 88, 72, 89, 77, 78, 83, 85, 88, 91, 96, 92, 95, 99, 100, 103]
   },
   {
     text: '3 Month',
     name: 'Relationship Manager: Dr. Georgie Powell',
     image: require("./assets/billgates.jpg"),
-    data: [ 83, 88, 85, 80, 63, 70, 75, 75, 81, 85, 88, 92, 94, 97, 103]
   },
   {
     text: '1 Year',
     name: 'Relationship Manager: Dr. Georgie Powell',
     image: require("./assets/billgates.jpg"),
-    data: [ 10, 15, 16, 43, 52, 48, 75, 72, 86, 82, 63, 76, 88, 92, 103]
   },
 ];
 
@@ -159,7 +156,7 @@ _renderComponent = () => {
               </CardItem>
               <CardItem cardBody>
                 <YAxis 
-                  data={ item.data }
+                  data={ date }
                   contentInset={ contentInset }
                   svg={{
                         fill: 'grey',
@@ -170,7 +167,7 @@ _renderComponent = () => {
                 />
                 <LineChart
                     style={ { height: 200, width:400, left:20 } }
-                    data={ item.data }
+                    data={ date }
                     contentInset={ { top: 20, bottom: 17 } }
                     svg={{
                         strokeWidth: 2,
@@ -182,7 +179,7 @@ _renderComponent = () => {
                 </LineChart>
               </CardItem>
               <CardItem>
-                  <Icon name="nutrition" style={{ color: '#ED4A6A' }} />
+                  <Icon name="person" style={{ color: '#ED4A6A' }} />
                   <Text>{item.name}</Text>
                 </CardItem>
             </Card>
